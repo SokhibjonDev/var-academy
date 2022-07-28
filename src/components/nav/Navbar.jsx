@@ -9,20 +9,20 @@ function Navbar() {
                 </a>
                 <ul>
                     <li>
-                        <a href="#!">Home </a>
+                        <a href="#!">Asosiy </a>
                     </li>
                     <li>
-                        <a href="#!">Cretificate</a>
+                        <a href="#!">Sertifikat</a>
                     </li>
                     <li>
-                        <a href="#!">About Us </a>
+                        <a href="#!">Biz haqimizda </a>
                     </li>
                     <li>
                         <a href="#!">Blog </a>
                     </li>
 
                     <li>
-                        <a href="#!">Contanct</a>
+                        <a href="#!">Contact</a>
                     </li>
                 </ul>
 

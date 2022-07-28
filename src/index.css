@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
@@ -15,9 +15,9 @@
 
 body {
   background: rgb(0, 0, 29);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-:focus{
+:focus {
   outline: none;
 }
 ::selection {
@@ -35,4 +35,20 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: #00b533;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.asd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.blogs {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,27 @@
+.Blog {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.blogImg img {
+  width: 550px;
+  margin-bottom: 80px;
+}
+
+.blogTitle {
+  display: flex;
+  color: #fff;
+}
+.blogTitle .icon img {
+  margin-right: 30px;
+  width: 70px;
+}
+.blogTitle .catalog h2 {
+  font-size: 37px;
+  letter-spacing: 1px;
+}
+.blogTitle .catalog p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
