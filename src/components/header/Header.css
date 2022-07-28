@@ -1,0 +1,55 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 250px;
+}
+
+.HeaderImg img {
+    width: 500px;
+    margin-top: 150px;
+}
+
+.Header .title h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    width: 650px;
+    font-size: 62px;
+    margin-top: 100px;
+}
+
+.Header .title h1 span,
+.Header .title h6 span {
+    color: #00b533;
+}
+
+.Header .title h6 {
+    width: 560px;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.Header .sotSet {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Header .backSot {
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, .400) inset,
+                2px 2px 5px 1px rgba(255, 255, 255, .400);
+}
+
+.Header .backSot img {
+    width: 35px;
+}

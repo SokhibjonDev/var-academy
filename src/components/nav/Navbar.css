@@ -1,0 +1,68 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    padding: 20px 0;
+    transition: .3s;
+    backdrop-filter: blur(5px);
+    position: fixed;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+}
+
+.Navbar .Number {
+    margin-top: 5px;
+    color: #fff !important;
+}
+
+.Navbar ul {
+    display: flex;
+    margin-top: 5px;
+}
+
+.Navbar ul li {
+    margin-left: 100px;
+}
+
+.Logo {
+    font-size: 25px;
+    display: flex;
+    letter-spacing: 3px;
+}
+
+.Logo span {
+    color: #00b533;
+    margin-right: 10px;
+}
+
+.Navbar li::after {
+    content: "";
+    display: block;
+    width: 103%;
+    height: 2px;
+    background: #00b533;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.Navbar a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.Navbar li:hover a {
+    color: #00b533;
+}
+
+.Navbar li:hover::after {
+    content: "";
+    opacity: 1;
+    transform: translateX(-3%);
+}
