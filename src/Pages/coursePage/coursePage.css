@@ -5,3 +5,115 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+h1 {
+    transform: translateY(100px);
+}
+
+.Course {
+    padding-top: 100px;
+    height: 180vh;
+}
+
+.courses {
+    margin-top: 200px;
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courseCard {
+    width: 170px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px;
+    background: rgba(255, 255, 255, .100);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.asd {
+    position: absolute;
+    transform: translateY(-74px) translateX(130px);
+}
+
+.asd:nth-child(3) {
+    position: absolute;
+    transform: translateY(-74px) translateX(390px);
+}
+
+.asd:nth-child(4) {
+    position: absolute;
+    transform: translateY(-226px) translateX(390px);
+}
+
+.asd:nth-child(5) {
+    position: absolute;
+    transform: translateY(74px) translateX(130px);
+}
+
+.asd:nth-child(6) {
+    position: absolute;
+    transform: translateY(2px) translateX(520px);
+}
+
+.asd:nth-child(8) {
+    position: absolute;
+    transform: translateY(78px) translateX(650px);
+}
+
+.courses:nth-child(3) {
+    position: absolute;
+}
+
+.courses:nth-child(3) {
+    margin-left: 31.2%;
+    margin-top: 12%;
+}
+
+.courses:nth-child(3) .asd:nth-child(5) {
+    position: absolute;
+    transform: translateY(78.5px) translateX(130px);
+}
+
+.courses:nth-child(3) .asd:nth-child(4) {
+    position: absolute;
+    transform: translateY(78.5px) translateX(390px);
+}
+
+.courses:nth-child(3) .asd:nth-child(7) {
+    position: absolute;
+    transform: translateY(-74.5px) translateX(650px);
+}
+
+.courses:nth-child(4) {
+    transform: rotateX(180deg) translateY(-555px) translateX(131px);
+}
+
+.courses:nth-child(4) .asd:nth-child(7) {
+    position: absolute;
+    transform: translateY(-74px) translateX(-130px);
+}
+
+.courses:nth-child(4) .asd:nth-child(9) {
+    position: absolute;
+    transform: translateY(-76px) translateX(130px);
+    border-bottom: 2px solid rgb(0, 0, 29);
+}
+
+
+h4 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+i {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: italic;
+    letter-spacing: 2px;
+}

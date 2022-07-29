@@ -4,7 +4,6 @@ import Certificate from "../../components/certification/Certificate";
 import AboutUs from "../../components/about/aboutUs";
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/contact/Contact";
-import "./homePage.css";
 
 function homePage() {
   return (
@@ -79,32 +78,33 @@ function homePage() {
             btn="More"
           />
         </div>
-        <h1>Bizningv Kurslarimiz</h1>
-        <div className="asd">
-          <div className="blogs">
-            <Blog
-              img="/images/usual.svg"
-              title="16+"
-              strong="Odatiy "
-              lorem="kurslarimiz soni"
-            />
-            <Blog
-              img="/images/roadmap.svg"
-              title="7"
-              strong="Roadmap Fullstack "
-              lorem="kurslarimiz soni"
-            />
-            <Blog
-              img="/images/intensiv.svg"
-              title="4"
-              strong="Intensiv Bootcamp "
-              lorem="kurslarimiz soni"
-            />
-          </div>
-          <div className="blogImg">
-            <img src="/images/edu3.svg" alt="" />
+        <h1>Bizning Kurslarimiz</h1>
+        <div className="blogImg">
+          <div className="Blog">
+            <div className="blogs">
+              <Blog
+                img="/images/usual.svg"
+                title="16+"
+                strong="Odatiy "
+                lorem="kurslarimiz soni"
+              />
+              <Blog
+                img="/images/roadmap.svg"
+                title="7"
+                strong="Roadmap Fullstack "
+                lorem="kurslarimiz soni"
+              />
+              <Blog
+                img="/images/intensiv.svg"
+                title="4"
+                strong="Intensiv Bootcamp "
+                lorem="kurslarimiz soni"
+              />
+            </div>
+            <img className="BlogImg" src="/images/edu3.svg" alt="" />
           </div>
         </div>
+
         <Contact />
       </div>
     </>

@@ -6,7 +6,7 @@ function Navbar() {
     <div className="Navbar">
       <ul className="d-flex ">
         <a href="/" className="Logo">
-          <span>VAR </span> ACADEMY
+          <span>LET </span>IT ACADEMY
         </a>
         <ul>
           <li>

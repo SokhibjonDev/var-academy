@@ -4,6 +4,7 @@ import HomePage from "./Pages/homePage/homePage";
 import CoursePage from "./Pages/coursePage/coursePage";
 import Navbar from "./components/nav/Navbar";
 import Footer from "./components/footer/Footer";
+import './index.css'
 
 function App() {
   return (

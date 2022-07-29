@@ -1,27 +1,42 @@
 .Blog {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 70px;
 }
-.blogImg img {
+
+.BlogImg {
   width: 550px;
-  margin-bottom: 80px;
+  transform: translateY(-50px);
 }
 
 .blogTitle {
   display: flex;
   color: #fff;
 }
+
 .blogTitle .icon img {
   margin-right: 30px;
+  margin-bottom: 70px;
   width: 70px;
 }
+
 .blogTitle .catalog h2 {
   font-size: 37px;
   letter-spacing: 1px;
 }
+
 .blogTitle .catalog p {
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 130px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
 }
