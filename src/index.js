@@ -7,6 +7,7 @@ import Certificate from "./components/certification/Certificate";
 import AboutUs from "./components/about/aboutUs";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -93,6 +94,7 @@ root.render(
         </div>
       </div>
       <Contact />
+      <Footer />
     </div>
   </React.StrictMode>
 );
