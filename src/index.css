@@ -34,21 +34,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00b533;
+  background: #00b533;  
 }
 
-h1 {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-.asd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 150px;
-}
-.blogs {
-  display: flex;
-  flex-direction: column;
-}

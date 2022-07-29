@@ -1,8 +1,7 @@
 import "./Header.css";
-
 function Header() {
     return (
-        <div className="Header">
+        <div id="Header" className="Header">
             <div className="title">
                 <h1>DASTURLASHNI <span>QULAY</span> MUHITDA O'RGANING</h1>
                 <h6>endi bizda <span>Ingliz tili</span> ham  bor !</h6>

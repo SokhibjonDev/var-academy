@@ -6,14 +6,14 @@ window.addEventListener("scroll", function () {
   }
 });
 
-let isbirnima = false;
+// let isbirnima = false;
 
-setInterval(backSotF, 1000);
-function backSotF() {
-  if (!!isbirnima) {
-    document.querySelector(".backSot").style.padding = "20px 15px";
-  } else {
-    document.querySelector(".backSot").style.padding = "15px";
-  }
-  isbirnima = !isbirnima;
-}
+// setInterval(backSotF, 1000);
+// function backSotF() {
+//   if (!!isbirnima) {
+//     document.querySelector(".backSot").style.padding = "20px 15px";
+//   } else {
+//     document.querySelector(".backSot").style.padding = "15px";
+//   }
+//   isbirnima = !isbirnima;
+// }
