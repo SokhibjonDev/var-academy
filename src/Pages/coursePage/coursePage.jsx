@@ -28,22 +28,22 @@ function Course() {
           <i>Angular</i>
         </div>
         <div className="courseCard">
-          <img src="../../images/front-end.png" alt="" />
+          <h4>E X</h4>
         </div>
         <div className="courseCard asd">
-          <img src="../../images/front-end.png" alt="" />
+          <img src="../../images/github.png" alt="" />
         </div>
         <div className="courseCard asd">
           <img src="../../images/mongo.png" alt="" />
         </div>
         <div className="courseCard asd">
-          <img src="../../images/front-end.png" alt="" />
+          <img src="../../images/git.png" alt="" />
         </div>
         <div className="courseCard asd">
-          <img src="../../images/front-end.png" alt="" />
+          <img src="../../images/mysql.png" alt="" />
         </div>
         <div className="courseCard asd">
-          <img src="../../images/front-end.png" alt="" />
+          <h4 style={{fontSize: '24px'}}>Node JS</h4>
         </div>
         <div className="courseCard asd">
           <img src="../../images/front-end.png" alt="" />
@@ -54,25 +54,25 @@ function Course() {
       </div>
       <div className="courses">
         <div className="courseCard">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <img className="revolver" src="../../images/java.png" alt="" />
         </div>
         <div className="courseCard">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <img src="../../images/python.png" alt="" />
         </div>
         <div className="courseCard asd">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <h4>C</h4>
         </div>
         <div className="courseCard asd">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <h4>C++</h4>
         </div>
         <div className="courseCard asd">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <h4>C#</h4>
         </div>
         <div className="courseCard asd">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <h4 className="revolver" style={{fontStyle:'italic'}}>GO</h4>
         </div>
         <div className="courseCard asd">
-          {/* <img src="../../images/front-end.png" alt="" /> */}
+          <h4 className="revolver" style={{fontStyle:'italic', borderRadius:'50%', border:'2px solid white', padding:'10px 10px 13px'}}>php</h4>
         </div>
         <div className="courseCard asd">
           {/* <img src="../../images/front-end.png" alt="" /> */}
