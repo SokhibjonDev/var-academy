@@ -6,7 +6,7 @@ function Navbar() {
     <div className="Navbar">
       <ul className="d-flex ">
         <a href="/" className="Logo">
-          <span>LET </span>IT ACADEMY
+          <span>VAR </span>IT ACADEMY
         </a>
         <ul>
           <li>
@@ -24,6 +24,9 @@ function Navbar() {
 
           <li>
             <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/signup">Ro'yxatdan o'tish</a>
           </li>
         </ul>
       </ul>

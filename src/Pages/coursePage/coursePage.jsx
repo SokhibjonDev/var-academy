@@ -43,7 +43,7 @@ function Course() {
           <img src="../../images/mysql.png" alt="" />
         </div>
         <div className="courseCard asd">
-          <h4 style={{fontSize: '24px'}}>Node JS</h4>
+          <h4 style={{ fontSize: "24px" }}>Node JS</h4>
         </div>
         <div className="courseCard asd">
           <img src="../../images/front-end.png" alt="" />
@@ -69,10 +69,22 @@ function Course() {
           <h4>C#</h4>
         </div>
         <div className="courseCard asd">
-          <h4 className="revolver" style={{fontStyle:'italic'}}>GO</h4>
+          <h4 className="revolver" style={{ fontStyle: "italic" }}>
+            GO
+          </h4>
         </div>
         <div className="courseCard asd">
-          <h4 className="revolver" style={{fontStyle:'italic', borderRadius:'50%', border:'2px solid white', padding:'10px 10px 13px'}}>php</h4>
+          <h4
+            className="revolver"
+            style={{
+              fontStyle: "italic",
+              borderRadius: "50%",
+              border: "2px solid white",
+              padding: "10px 10px 13px",
+            }}
+          >
+            php
+          </h4>
         </div>
         <div className="courseCard asd">
           {/* <img src="../../images/front-end.png" alt="" /> */}

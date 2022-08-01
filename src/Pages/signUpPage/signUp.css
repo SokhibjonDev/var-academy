@@ -1,0 +1,84 @@
+.imgInput {
+    width: 700px;
+}
+form{
+    padding-top: 145px;
+}
+.imgInput img {
+    width: 100%;
+}
+
+.infoInput {
+    width: 740px;
+    height: 467px;
+    background: rgba(255, 255, 255, 0.100);
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.name {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 260px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.password {
+    width: 550px;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.password input {
+    width: 100%;
+}
+
+.name select {
+    background: transparent;
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+select option {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.submit:hover {
+    background: #00b533;
+    border: none;   
+    box-shadow: 0 0 10px #00b533; 
+}
+
+form {
+    display: flex;
+}
