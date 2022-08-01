@@ -10,11 +10,12 @@ function Certificate() {
             <img src="/images/edu2.svg" alt="" />
           </div>
           <div className="certificateInfo">
-            <div className="certificatee"></div>
-            <p>
-              Mutaxassislik kurslarini to'liq tamomlagan talabalarga sertifikat
-              beriladi.
-            </p>
+            <div className="certificatee">
+              <p>
+                Mutaxassislik kurslarini to'liq tamomlagan talabalarga
+                sertifikat beriladi.
+              </p>
+            </div>
           </div>
         </div>
       </div>

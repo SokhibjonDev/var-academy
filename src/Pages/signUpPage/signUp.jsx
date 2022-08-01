@@ -11,15 +11,15 @@ function SignUp() {
           </div>
           <div className="infoInput">
             <div className="name">
-              <input type="text" placeholder="Ism" />
-              <input type="text" placeholder="Familya" />
+              <input type="text" placeholder="Ism" required />
+              <input type="text" placeholder="Familya"  required/>
             </div>
             <div className="name">
-              <input type="number" placeholder="Tel. nomer" />
-              <input type="email" placeholder="Email" />
+              <input type="number" placeholder="Tel. nomer" required />
+              <input type="email" placeholder="Email" required />
             </div>
             <div className="name">
-              <select name="course" id="course">
+              <select name="course" id="course" required>
                 <option value="#!">Kurslarimiz</option>
                 <option value="#!">Web Dizayn</option>
                 <option value="#!">Web dasturlash</option>
@@ -27,8 +27,8 @@ function SignUp() {
               </select>
             </div>
             <div className="password">
-              <input type="password" placeholder="Parol" />
-              <input type="password" placeholder="Parolni tasdiqlang" />
+              <input type="password" placeholder="Parol" required />
+              <input type="password" placeholder="Parolni tasdiqlang"  required/>
             </div>
             <div className="name">
               <input className="submit" type="submit" value={"Jo`natish"} />

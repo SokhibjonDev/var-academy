@@ -6,21 +6,25 @@
   line-height: 50px;
   font-size: 35px;
 }
+
 .Certificate p {
   color: #fff;
   width: 450px;
   letter-spacing: 3px;
-  line-height: 40px;
   margin-left: 200px;
+  margin-bottom: 30px;
   font-size: 25px;
 }
+
 .Certificate img {
   width: 500px;
   margin-top: 100px;
 }
-.Certificate{
-    margin-bottom: 150px;
+
+.Certificate {
+  margin-bottom: 150px;
 }
+
 .certificateTaqdimot {
   display: flex;
   align-items: center;

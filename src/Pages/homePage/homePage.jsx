@@ -41,8 +41,8 @@ function homePage() {
           />
           <AboutUs
             img="/images/data-base.png"
-            title="Abdullayev Bobur"
-            paragraph="Data Sceince Developer"
+            title="Qurbonov Xondamir"
+            paragraph="Senior FrontEnd Developer"
             btn="More"
           />
           <AboutUs
@@ -55,26 +55,6 @@ function homePage() {
             img="/images/translate.png"
             title="Yusufxonova Xurshida"
             paragraph="English Teacher"
-            btn="More"
-          />
-        </div>
-        <div className="Cards Cardo">
-          <AboutUs
-            img="/images/front-end.png"
-            title="Qurbonov Xondamir"
-            paragraph="Senior FrontEnd Developer"
-            btn="More"
-          />
-          <AboutUs
-            img="/images/g-designer.png"
-            title="Axmatjonov Sherzod"
-            paragraph="Designer"
-            btn="More"
-          />
-          <AboutUs
-            img="/images/g-designer.png"
-            title="Axmatjonov Sherzod"
-            paragraph="Designer"
             btn="More"
           />
         </div>

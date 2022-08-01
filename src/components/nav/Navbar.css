@@ -23,11 +23,13 @@
 
 .Navbar ul {
     display: flex;
-    margin-top: 5px;
-}
+    align-items: center;
+    }
 
 .Navbar ul li {
     margin-left: 100px;
+    padding: 7px 0;
+    margin-top: 11px;
 }
 
 .Logo {
@@ -41,7 +43,7 @@
     margin-right: 10px;
 }
 
-.Navbar li::after {
+.Navbar ul li::after {
     content: "";
     display: block;
     width: 103%;
@@ -62,8 +64,19 @@
     color: #00b533;
 }
 
-.Navbar li:hover::after {
+.Navbar ul li:hover::after {
     content: "";
     opacity: 1;
     transform: translateX(-3%);
+}
+
+.sign {
+    background: #00b533;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 0 0 0 60px;
+}
+
+.sign:hover {
+    color: #fff !important;
 }

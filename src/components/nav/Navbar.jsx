@@ -25,9 +25,7 @@ function Navbar() {
           <li>
             <a href="/contact">Contact</a>
           </li>
-          <li>
-            <a href="/signup">Ro'yxatdan o'tish</a>
-          </li>
+            <a className="sign" href="/signup">Ro'yxatdan o'tish</a>
         </ul>
       </ul>
     </div>
